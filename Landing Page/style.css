@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins','Roboto', sans-serif;
+}
+.navbar{
+    background-color: #f6f6f6;
+}
+
+.logo img{
+    height: 100px;
+    width: auto;
+}
+
+.nav-item a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section{
+    background-color: #f6f6f6;
+}
+section .container-fluid{
+    height: 1000px;
+    width: 100%;
+    padding: 50px;
+}
+/* bg decor */
+
+section .container-fluid .nike-bg img{
+    display: flex;
+    position: absolute;
+    left: 70%;
+    bottom: 50%;
+    height: 1000px;
+    
+}
+
+/* shoe */
+section .container-fluid .shoe img{
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    height: 700px;
+}
+@media(max-width :1400px){
+    section .container-fluid .shoe img{
+        position: absolute;
+        right: 1%;
+        top: 30%;
+        height: 600px;
+    }
+}
+
+section .container-fluid .container .text{
+    width: 30%;
+    position: absolute;
+    top: 30%;
+    margin-top: 10px;
+}
+
+section .container-fluid .container .text h3{
+    font-weight: bold;
+ }
+
+section .container-fluid .container .text h1{
+   font-weight: bolder;
+   font-size: 80px;
+   margin-block: 15px;
+}
+section .container-fluid .container .text p{
+    color: #898787;
+ }
+
+ .button{
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 10px 40px;
+    border-radius: 0px;
+}
+
+.shop{
+    padding-bottom: 100px;
+}
+
+.shop h3{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+footer{
+    background-color: #f6f6f6;
+    padding-bottom: 50px;
+}
